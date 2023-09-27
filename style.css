@@ -10,6 +10,7 @@ h1 {
   display: flex;
   gap: 3rem;
   padding: 40px 60px;
+  /* flex-wrap: wrap; */
 }
 
 .text {
@@ -41,4 +42,22 @@ h4 {
   border: 3px dashed #66a9af;
   border-radius: 11px;
   background-color: #f7f7ef;
+}
+
+@media screen and(max-width:1670){
+  .food2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }  
+}
+
+@media screen and(max-width:768){
+  .food2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }  
 }
